@@ -12,7 +12,7 @@ function destructivelyPrependKitten() {
 }
 
 function destructivelyPrependKitten() {
-  kittens.unshift("Bob");
+  kittens.unshift();
   return kittens
 }
 
