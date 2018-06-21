@@ -11,8 +11,5 @@ function destructivelyPrependKitten() {
   return kittens
 }
 
-function destructivelyPrependKitten() {
-  kittens.unshift();
-  return kittens
-}
+
 
