@@ -1,6 +1,6 @@
 const app = "I don't do much."
 var kittens = ["Milo", "Otis", "Garfield"]
-const morekittens = ["Milo", "Otis", "Garfield"]
+var morekittens = ["Broom"]
 
 function destructivelyAppendKitten() {
   kittens.push("Ralph");
@@ -24,5 +24,5 @@ function destructivelyRemoveFirstKitten () {
 
 function appendKitten() {
   [...kittens,"Broom"];
-  return morekittens
+  return kittens
 }
